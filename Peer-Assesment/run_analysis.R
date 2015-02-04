@@ -7,14 +7,14 @@ trainLabel <- read.table("./data/train/y_train.txt")
 table(trainLabel)
 trainSubject <- read.table("./data/train/subject_train.txt")
 testData <- read.table("./data/test/X_test.txt")
-dim(testData
+dim(testData)
 testLabel <- read.table("./data/test/y_test.txt") 
 table(testLabel) 
 testSubject <- read.table("./data/test/subject_test.txt")
 joinData <- rbind(trainData, testData)
-dim(joinData
+dim(joinData)
 joinLabel <- rbind(trainLabel, testLabel)
-dim(joinLabel
+dim(joinLabel)
 joinSubject <- rbind(trainSubject, testSubject)
 dim(joinSubject)
 
